@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Notícias</title>
+    <link rel="stylesheet" href="noticia.css">
+    <link rel="Icon" href="icons8-jornal-48.png">
+</head>
+<body>
+    <header>
+        <h1>Notícias Hoje No Jornal Nacional de Chavantes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#politica">Política</a></li>
+                <li><a href="#economia">Economia</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2> Jornal Nacional de Chavantes é a sua fonte confiável para as últimas notícias e atualizações da cidade, região e do país inteiro. Comprometido em oferecer informações relevantes e bem apuradas, nosso site traz uma cobertura completa de eventos locais, política, cultura, esportes e muito mais.  </h2>
+            <article>
+                <h3>Notícias em Tempo Real</h3>
+                <p>Fique por dentro dos acontecimentos mais importantes com atualizações constantes.</p>
+            </article>
+            <article>
+                <h3>Interatividade</h3>
+                <p>Incentivamos a participação dos leitores por meio de comentários e sugestões, tornando nosso site uma plataforma de diálogo e engajamento.</p>
+                <br>
+                <label for="suagestao">Sua sugestão:</label><br>
+                <textarea id="sugestao" name="sugestao" rows="4" cols="50"></textarea>
+                <br><br>
+            </article>
+        </section>
+
+        <section id="politica">
+            <h2>Últimas Notícias em Política</h2>
+            <article>
+                <h3>O governador de Goiás, Ronaldo Caiado (União Brasil), afirmou hoje ao UOL News que será candidato à Presidência da República em 2026, independentemente de qualquer condição —mesmo que enfrente outros nomes do campo da direita, como Tarcísio de Freitas (Republicanos), governador de São Paulo.</h3>
+                <img src="noticia1.png" alt="Reforma da Previdência">
+                <p>Questionado sobre Tarcísio, Caiado disse que é "normal" mais de um nome aparecer para a disputa. O governador afirmou ainda que a candidatura presidencial é um movimento natural de sua trajetória política.</p>
+            </article>
+        </section>
+
+        <section id="economia">
+            <h2>Atualizações Econômicas</h2>
+            <article>
+                <h3>Os consumidores de energia devem pagar R$ 24,9 milhões em novembro para arcar com a geração de energia pela usina Termopernambuco, que entrou em operação em outubro de forma antecipada para gerar energia em meio à seca histórica no país.</h3>
+                <img src="noticia2.png" alt="Inflação">
+                <p>A informação é um cálculo preliminar divulgado pela Câmara de Comercialização de Energia Elétrica (CCEE) nesta segunda-feira (28).
+                    <br>
+                    O valor é composto pelo pagamento da receita fixa da usina e a composição de um fundo para arcar com eventual inadimplência dos consumidores. São R$ 19,1 milhões para a usina e R$ 5,8 milhões para o fundo.
+                    <br>
+                    Os consumidores residenciais (que compram das distribuidoras) devem pagar pelo encargo na conta de luz. Consumidores livres (que escolhem os seus fornecedores), autoprodutores e consumidores especiais também vão arcar com os custos.
+                    </p>
+            </article>
+        </section>
+
+        <section id="cultura">
+            <h2>Cultura e Entretenimento</h2>
+            <article>
+                <h3>Para quem curte um melodrama que mistura romance e humor, com um final bem previsível, “Todo tempo que temos” é o filme certo. Estrelado por Andrew Garfield e Florence Pugh, a trama estreia nesta quinta-feira (31) e narra a história de um casal que constrói o lar e a família dos sonhos.</h3>
+                <img src="noticia3.png" alt="Festival de Cinema">
+                <p>Apesar da história bonita, tudo isso é apresentado de uma forma não linear que pode confundir o espectador mais desatento. O filme aborda os altos e baixos que qualquer casal da vida real passa.
+                    <br>
+                    Por mais que arranque lágrimas (e até gargalhadas) dos espectadores, o roteiro de Nick Payne (criador da série “Wanderlust”) é meio desorganizado e conta com algumas cenas forçadas. Por outro lado, a química de Andrew Garfield e Florence Pugh em tela é incrível.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Notícias Hoje</p>
+    </footer>
+    
+    
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+</html>
